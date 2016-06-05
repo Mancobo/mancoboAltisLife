@@ -299,7 +299,7 @@ class playerSettings {
 			h = (1 / 25);
 		};
 		/*
-		class ButtonAdminMarket : life_ RscButtonMenu {
+		class ButtonAdminMarket : life_RscButtonMenu {
 			idc = 2024;
 			text = "$STR_PM_DynMarketAdmin";
 			onButtonClick = "createDialog ""life_dynmarket_changeprice"";";
@@ -308,6 +308,16 @@ class playerSettings {
 			w = (/);
 			h = (/);
 		};
+		
+		class ButtonMarket : life_RscButtonMenu {
+			idc = 2025;
+			text = "$STR_PM_DynMarketMenu";
+			onButtonClick = "createDialog ""life_dynmarket_prices"";";
+			x = ;
+			y = ;
+			w = (/);
+			h = (/);
+		}
 		*/
 		class ButtonSyncData : life_RscButtonMenu {
 			idc = -1;
